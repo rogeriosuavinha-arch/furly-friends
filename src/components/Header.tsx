@@ -34,10 +34,10 @@ const Header = () => {
         {/* Desktop Actions */}
         <div className="hidden md:flex items-center space-x-4">
           <Button variant="ghost" size="sm">
-            Entrar
+            <a href="/login">Entrar</a>
           </Button>
           <Button variant="hero" size="sm">
-            Cadastrar
+            <a href="/register">Cadastrar</a>
           </Button>
         </div>
 
